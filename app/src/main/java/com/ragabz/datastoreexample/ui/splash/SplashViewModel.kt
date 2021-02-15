@@ -10,4 +10,5 @@ class SplashViewModel @Inject constructor(
     private val prefStoreImpl: PrefStoreImpl
 ) : ViewModel() {
     val isOnBoardingDisabled = prefStoreImpl.isOnBoardingDisabled
+
 }
